@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.firebase.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/add_btn_cadastrar"
+        android:orderInCategory="100"
+        android:title="Add"
+        android:icon="@android:drawable/ic_input_add"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/btn_undo_toolbar"
+        android:orderInCategory="100"
+        android:title="Undo"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_undo_black_24dp"/>
+    <item
+        android:id="@+id/btn_delete"
+        android:orderInCategory="100"
+        android:title="Undo"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_undo_black_24dp"/>
+    <item
+        android:id="@+id/btn_save_alterar"
+        android:orderInCategory="100"
+        android:title="Alterar"
+        android:icon="@android:drawable/ic_menu_save"
+        app:showAsAction="always" />
+
+</menu>
